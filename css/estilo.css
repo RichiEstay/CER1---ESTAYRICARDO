@@ -1,0 +1,42 @@
+.tituloLogo{
+    color: #0F5063;
+    font-size: 22px;
+    font-weight: bold;
+}
+.subtituloLogo{
+    color: #E65C38;
+    font-size: 12px;
+}
+.portada{
+    background-image: url("../imag/principal.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+.contenidoPortada{
+    padding-top: 80px;
+    padding-left: 100px;
+}
+.tituloPortada{
+    color: #0F5063;
+    font-size: 50px;
+    font-weight: bold;
+}
+.textoPortada{
+    color: #405A64;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.botonPortada{
+    background-color: #E65C38;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
+}
