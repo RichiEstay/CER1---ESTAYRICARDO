@@ -15,7 +15,7 @@
 
 <body>
     
-    <header>
+    <header class="fijarHeader" >
         <nav class="row py-3 navbar-expand-lg">
         <div class="col-4 d-flex justify-content-center">  
             <div>
@@ -26,8 +26,8 @@
 
             <div class="col-7 row justify-content-end pe-5">
                 <div class="col-auto"><a href="#inicio">Inicio</div></a>
-                <div class="col-auto"><a href="">Cartelera</div></a>
-                <div class="col-auto"><a href="">Inscripcion</div></a>
+                <div class="col-auto"><a href="#cartelera">Cartelera</div></a>
+                <div class="col-auto"><a href="#inscripcion">Inscripcion</div></a>
             </div>
         </nav>
 
@@ -62,7 +62,7 @@
         <div class="row g-4"> <!-- g = gutter = margen de separacion entre columnas  -->
 
             <div class="col-12 col-md-6 col-lg-4">
-                 <div class="card h-100">
+                <div class="card h-100">
 
          <h5 class="card-title text-center">Taller de Cine y Danza</h5>      
 
@@ -185,9 +185,133 @@
         </div>
 
     </div>
-    
 
 </section>
+
+    <section id="inscripcion" class="py-5">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-md-8 col-lg-6">
+
+
+            <div class="text-center mb-4">
+                <h2>Inscripción a Actividades</h2>
+                <p>Completa el formulario para registrar tu interés en una actividad.</p>
+            </div>
+
+        <form>
+
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre completo</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="correo" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input type="tel" class="form-control" id="telefono" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="actividad" class="form-label">Actividad de interés</label>
+
+                <select class="form-select" id="actividad" required>
+
+                    <option value="">Seleccione una actividad</option>
+
+                    <option>Taller de Cine y Danza</option>
+                    <option>Taller de Greda</option>
+                    <option>Taller de Telas Aéreas</option>
+                    <option>Ajedrez y Juegos de Mesa</option>
+                    <option>Taller de Canto</option>
+                    <option>Taller de Pintura</option>
+
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="edad" class="form-label">Edad</label>
+                <input type="number" class="form-control" id="edad" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="comentarios" class="form-label">
+                    Comentarios adicionales
+                </label>
+                 <textarea class="form-control" id="comentarios" rows="4"></textarea>
+            </div>
+
+            <div class="form-check mb-3">
+
+                <input class="form-check-input"
+                       type="checkbox"
+                       id="condiciones"
+                       required>
+
+                <label class="form-check-label" for="condiciones">
+                    Acepto las condiciones de participación
+                </label>
+
+            </div>
+            
+            <button type="submit" class="btn botonPortada">
+                Enviar inscripción
+            </button>
+
+        </form>
+
+            </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="nosotros" class="py-5">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-12 col-md-6">
+
+                <h2>Sobre Nosotros</h2>
+
+                <p>
+                    Puerto Abierto es un centro cultural dedicado a promover
+                    el arte, la cultura y la participación de la comunidad.
+                </p>
+
+                <p>
+                    Nuestro espacio busca acercar distintas expresiones
+                    artísticas a personas de todas las edades mediante
+                    talleres, actividades y encuentros culturales.
+                </p>
+
+            </div>
+
+            <div class="col-12 col-md-6">
+
+                <img src="../imag/centrocul.png"
+                     class="img-fluid imagenAcerca"
+                     alt="Actividades del Centro Cultural Puerto Abierto">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </section>
 
 
 
