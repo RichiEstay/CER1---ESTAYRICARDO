@@ -14,8 +14,8 @@
 <body>
   
     <header class="fijarHeader" >
-        <nav class="row py-3 navbar-expand-lg align-items-center">
-        <div class="col-4 d-flex justify-content-center">  
+        <nav class="navbar row py-3 navbar-expand-lg align-items-center">
+        <div class="col-9 col-lg-4 d-flex justify-content-center"> 
 
             <img class="logo" src="../imag/logo.jpg" alt="">
             <div class="border-start border-2 me-3" style="height: 50px"></div>
@@ -24,11 +24,17 @@
                 <div class=" tituloLogo">Puerto Abierto</div>
                 <div class=" subtituloLogo"> Centro Cultural</div>
             </div>
-            
+         </div>   
+         
+         <button class="navbar-toggler"
+                 type="button"
+                 data-bs-toggle="collapse"
+                 data-bs-target="#menuPrincipal">
 
-         </div>     
+            <span class="navbar-toggler-icon"></span>
+         </button>
 
-            <div class="col-7 row justify-content-end pe-5">
+            <div id="menuPrincipal" class="collapse navbar-collapse col-7 row justify-content-end pe-5">
                 <div class="col-auto"><a href="../html/Inicio.html">Inicio</a></div>
                 <div class="col-auto"><a href="../html/Cartelera.html">Cartelera</a></div>
                 <div class="col-auto"><a href="../html/Formulario.html">Inscripcion</a></div>
