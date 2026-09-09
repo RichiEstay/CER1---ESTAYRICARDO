@@ -63,6 +63,11 @@
     height: 350px;
     object-fit: cover;
 }
+.footerPuerto{
+    background-color: #0F5063;
+    color: white;
+    margin-bottom: 5px;
+}
 .body{
     padding-top: 100px;
 }
