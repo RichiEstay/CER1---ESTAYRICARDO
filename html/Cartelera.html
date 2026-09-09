@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +11,14 @@
 </head>
 
 <body>
-    
+
     <header class="fijarHeader" >
-        <nav class="row py-3 navbar-expand-lg">
+        <nav class="row py-3 navbar-expand-lg align-items-center">
         <div class="col-4 d-flex justify-content-center">  
+
+            <img class="logo" src="../imag/logo.jpg" alt="">
+            <div class="border-start border-2 me-3" style="height: 50px"></div>
+
             <div>
                 <div class=" tituloLogo">Puerto Abierto</div>
                 <div class=" subtituloLogo"> Centro Cultural</div>
@@ -25,34 +26,17 @@
          </div>     
 
             <div class="col-7 row justify-content-end pe-5">
-                <div class="col-auto"><a href="#inicio">Inicio</div></a>
-                <div class="col-auto"><a href="#cartelera">Cartelera</div></a>
-                <div class="col-auto"><a href="#inscripcion">Inscripcion</div></a>
+                <div class="col-auto"><a href="../html/Inicio.html">Inicio</div></a>
+                <div class="col-auto"><a href="../html/Cartelera.html">Cartelera</div></a>
+                <div class="col-auto"><a href="../html/Formulario.html">Inscripcion</div></a>
             </div>
         </nav>
 
     </header>
 
-    <main>
-
-    <div id="inicio" class="portada">
-
-        <div class="contenidoPortada">
-
-            <div class="tituloPortada">Centro Cultural Puerto Abierto</div>
-
-            <div class="textoPortada">Un espacio abierto para el arte, la cultura y la comunidad.</div>
-
-            <button  class="botonPortada"><a href="#cartelera">Ver actividades</button></a>
-
-        </div>
-
-    </div>
-
-</main>
 
 <section id="cartelera">
-    <div class="text-center d-flex flex-column justify-content-center mt-5 py-3 ">
+    <div class="text-center d-flex flex-column justify-content-center mt-5 pt-5 pb-5 ">
         <h1>ACTIVIDADES DESTACADAS</h1>
         <p>Conoce nuestras principales actividades abiertas a la comunidad</p>
     </div>
@@ -188,133 +172,5 @@
 
 </section>
 
-    <section id="inscripcion" class="py-5">
-
-        <div class="container">
-
-            <div class="row justify-content-center">
-
-                <div class="col-12 col-md-8 col-lg-6">
-
-
-            <div class="text-center mb-4">
-                <h2>Inscripción a Actividades</h2>
-                <p>Completa el formulario para registrar tu interés en una actividad.</p>
-            </div>
-
-        <form>
-
-            <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre completo</label>
-                <input type="text" class="form-control" id="nombre" required>
-            </div>
-
-            <div class="mb-3">
-                <label for="correo" class="form-label">Correo electrónico</label>
-                <input type="email" class="form-control" id="correo" required>
-            </div>
-
-            <div class="mb-3">
-                <label for="telefono" class="form-label">Teléfono</label>
-                <input type="tel" class="form-control" id="telefono" required>
-            </div>
-
-            <div class="mb-3">
-                <label for="actividad" class="form-label">Actividad de interés</label>
-
-                <select class="form-select" id="actividad" required>
-
-                    <option value="">Seleccione una actividad</option>
-
-                    <option>Taller de Cine y Danza</option>
-                    <option>Taller de Greda</option>
-                    <option>Taller de Telas Aéreas</option>
-                    <option>Ajedrez y Juegos de Mesa</option>
-                    <option>Taller de Canto</option>
-                    <option>Taller de Pintura</option>
-
-                </select>
-            </div>
-
-            <div class="mb-3">
-                <label for="edad" class="form-label">Edad</label>
-                <input type="number" class="form-control" id="edad" required>
-            </div>
-
-            <div class="mb-3">
-                <label for="comentarios" class="form-label">
-                    Comentarios adicionales
-                </label>
-                 <textarea class="form-control" id="comentarios" rows="4"></textarea>
-            </div>
-
-            <div class="form-check mb-3">
-
-                <input class="form-check-input"
-                       type="checkbox"
-                       id="condiciones"
-                       required>
-
-                <label class="form-check-label" for="condiciones">
-                    Acepto las condiciones de participación
-                </label>
-
-            </div>
-            
-            <button type="submit" class="btn botonPortada">
-                Enviar inscripción
-            </button>
-
-        </form>
-
-            </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <section id="nosotros" class="py-5">
-
-    <div class="container">
-
-        <div class="row align-items-center">
-
-            <div class="col-12 col-md-6">
-
-                <h2>Sobre Nosotros</h2>
-
-                <p>
-                    Puerto Abierto es un centro cultural dedicado a promover
-                    el arte, la cultura y la participación de la comunidad.
-                </p>
-
-                <p>
-                    Nuestro espacio busca acercar distintas expresiones
-                    artísticas a personas de todas las edades mediante
-                    talleres, actividades y encuentros culturales.
-                </p>
-
-            </div>
-
-            <div class="col-12 col-md-6">
-
-                <img src="../imag/centrocul.png"
-                     class="img-fluid imagenAcerca"
-                     alt="Actividades del Centro Cultural Puerto Abierto">
-
-            </div>
-
-        </div>
-
-    </div>
-
-    </section>
-
-
-
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>  
 </body>
