@@ -1,3 +1,15 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 100px;
+    background-color: #F7F4EE;
+    color: #405A64;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0F5063;
+}
+
 .tituloLogo{
     color: #0F5063;
     font-size: 22px;
@@ -35,6 +47,8 @@
     padding: 12px 25px;
     margin-top: 20px;
     border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
 }
 .card-img-top{
     height: 300px;
@@ -42,8 +56,11 @@
 }
 .imagenAcerca{
     width: 100%;
-    height: 550px;
+    height: 400px;
     object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    
 }
 .fijarHeader{
     position: fixed;
@@ -62,12 +79,105 @@
     width: 100%;
     height: 350px;
     object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 .footerPuerto{
     background-color: #0F5063;
     color: white;
     margin-bottom: 5px;
 }
-.body{
-    padding-top: 100px;
+.footerPuerto p{
+    color: white;
+    margin-bottom: 5px;
+}
+.footerPuerto h5{
+    color: white;
+}
+
+p{
+    color: #405A64;
+}
+#nosotros{
+    background-color: #F7F4EE;
+}
+
+#nosotros h2{
+    color: #0F5063;
+    font-weight: bold;
+}
+
+#nosotros p{
+    color: #405A64;
+    font-size: 18px;
+    line-height: 1.7;
+}
+#ubicacion{
+    background-color: #EAF2F3;
+}
+
+#ubicacion h2{
+    color: #0F5063;
+    font-weight: bold;
+}
+
+#ubicacion p{
+    color: #405A64;
+    font-size: 17px;
+}
+nav a{
+    color: #0F5063;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover{
+    color: #E65C38;
+}
+
+.iconoContacto {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 6px;
+}
+.card{
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+}
+
+.card-title{
+    color: #0F5063;
+    font-weight: bold;
+    padding: 15px 10px;
+    margin: 0;
+    background-color: #F7F4EE;
+}
+
+.card-img-top{
+    height: 260px;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 20px;
+}
+
+.card-text{
+    color: #405A64;
+}
+.formularioInscripcion{
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
 }
